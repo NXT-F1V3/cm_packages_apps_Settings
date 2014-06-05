@@ -149,6 +149,30 @@
         android:fragment="com.android.settings.crdroid.HoverSettings"
         android:title="@string/hover_settings_title" />
 
+    <!-- NXT-F1V3 OPTIONS -->
+    <header
+	android:id="@+id/nxtfive_settings"
+	android:title="@string/nxtfive_settings" />
+
+    <!-- Kernel Tweaker -->
+    <header	
+	android:id="@+id/kernel_tweaker"
+	android:icon="@drawable/ic_kernel_tweaker"
+	android:title="@string/kernel_tweaker" >
+	<intent
+	     android:action="android.intent.action.MAIN" 
+	     android:targetPackage="com.dsht.kerneltweaker"
+	     android:targetClass="com.dsht.kerneltweaker.MainActivity" />
+     </header>
+
+     <!-- Slim Sizer -->
+     <header
+	 android:id="@+id/slim_sizer"
+	 android:icon="@drawable/ic_settings_slim_sizer"
+	 android:title="@string/slim_sizer"
+	 android:fragment="com.slim.sizer.SlimSizer" />
+      <!-- END OF NXT-F1V3 OPTIONS -->
+	
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
