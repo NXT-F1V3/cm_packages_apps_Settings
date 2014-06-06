@@ -205,15 +205,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-	<!-- Slim Sizer -->
-        <activity
-            android:name="com.slim.sizer.SlimSizer"
-            android:label="@string/slim_sizer"
-            android:parentActivityName="Settings" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myfirstapp.MainActivity" />
-        </activity>
 
         <activity
             android:name="com.android.settings.slim.SystemappRemover"
