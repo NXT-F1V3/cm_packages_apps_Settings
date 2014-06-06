@@ -4981,7 +4981,7 @@
     <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
 
    <!-- Advanced Settings, KernelTweakeri & SlimSizer -->
-    <string name="nxtfive_settings">NXT-F1V3 Settings<string>
+    <string name="nxtfive_settings">NXT-F1V3 Settings</string>
     <string name="kernel_tweaker">Kernel Tweaker</string>
     <string name="slim_sizer">Remove System Apps</string>
     <!-- NXT-F1V3 ROM version -->
