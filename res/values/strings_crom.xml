@@ -80,4 +80,14 @@
     <string name="sizer_message_filefail">Failed to create profile.</string>
     <string name="sizer_message_noselect">Nothing selected.</string>
 
+   <!-- Advanced Settings, KernelTweaker -->
+    <string name="nxtfive_settings">NXT-F1V3 Settings</string>
+    <string name="kernel_tweaker">Kernel Tweaker</string>
+  
+    <!-- NXT-F1V3 ROM version -->
+    <string name="rom_header">ROM Name</string>
+    <string name="rom_name">BB0X_NXT-F1V3-CM ROM</string>
+    <string name="author_header">Modded By</string>
+    <string name="author_name">Shakir Abdul-Ahad</string>
+
 </resources>

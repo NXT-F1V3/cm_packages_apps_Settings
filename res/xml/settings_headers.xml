@@ -128,16 +128,23 @@
 	     android:targetClass="com.dsht.kerneltweaker.MainActivity" />
      </header>
 
-     <!-- Slim Sizer -->
+     <!-- Slim Sizer
      <header
 	 android:id="@+id/slim_sizer"
 	 android:icon="@drawable/ic_settings_slim_sizer"
-	 android:title="@string/slim_sizer" >
+	 android:title="@string/sizer_title" >
 	 <intent
 	      android:action="android.intent.action.MAIN"
 	      android:targetPackage="com.slim.ota"
 	      android:targetClass="com.slim.sizer.SlimSizer" />
-	</header>
+	</header> -->
+
+     <!-- Slim Sizer -->
+     <header
+	 android:id="@+id/system_app_remover"
+	 android:icon="@drawable/ic_settings_slim_sizer"
+	 android:title="@string/sizer_title" 
+	 android:fragment="com.android.settings.slim.SystemappRemover" />
       <!-- END OF NXT-F1V3 OPTIONS -->
 	
     <!-- DEVICE -->
