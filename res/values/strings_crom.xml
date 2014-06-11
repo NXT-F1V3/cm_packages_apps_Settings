@@ -18,9 +18,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- C-RoM Settings -->
-    <string name="crom_settings_title">C-RoM Extras</string>
-    <string name="crom_settings_summary">C-RoM features</string>
+    <!-- NXT-F1V3 Settings -->
+    <string name="crom_settings_title">NXT-F1V3 Extras</string>
+    <string name="crom_settings_summary">NXT-F1V3 features</string>
 
     <!-- Display and Animations -->
     <string name="disp_anim_settings_title">Display and animations</string>
@@ -84,7 +84,7 @@
     <string name="nxtfive_settings">NXT-F1V3 Settings</string>
     <string name="kernel_tweaker">Kernel Tweaker</string>
   
-    <!-- NXT-F1V3 ROM version -->
+    <!-- NXT-F1V3 ROM versioning -->
     <string name="rom_header">ROM Name</string>
     <string name="rom_name">BB0X_NXT-F1V3-CM ROM</string>
     <string name="author_header">Modded By</string>
