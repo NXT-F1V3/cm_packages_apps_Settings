@@ -16,7 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/ctool_title"
+    android:title="@string/nxtfive_tools_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
@@ -25,18 +25,18 @@
     <!-- KernelTweaker -->
     <PreferenceScreen
         android:key="kerneltweaker_start"
-        android:title="@string/kerneltweaker_settings_title"
+        android:title="@string/kernel_tweaker"
         android:icon="@drawable/ic_kernel_tweaker" />
-
-    </PreferenceScreen>
 
     <!-- Density changer -->
     <PreferenceScreen
-        android:id="@+id/density_changer"
+ 	    android:key="lcd_density_setup"
+        android:fragment="com.android.settings.n5x.DensityChanger"
         android:title="@string/lcd_density_title"
         android:icon="@drawable/ic_settings_density_changer"
-        android:fragment="com.android.settings.nx5.DensityChanger" />
-
+        android:summary="@string/lcd_density_summary" />
+        
+        
     <!-- SlimSizer -->
     <PreferenceScreen
         android:id="@+id/system_app_remover"

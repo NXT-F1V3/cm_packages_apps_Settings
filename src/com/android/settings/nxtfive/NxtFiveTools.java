@@ -26,10 +26,10 @@ import android.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class CtoolSettings extends SettingsPreferenceFragment
+public class NxtFiveTools extends SettingsPreferenceFragment
         implements OnSharedPreferenceChangeListener {
 
-    private static final String TAG = "NxtFiveSettings";
+    private static final String TAG = "NxtFiveTools";
 
     private static final String KERNELTWEAKER_START = "kerneltweaker_start";
 
@@ -45,7 +45,7 @@ public class CtoolSettings extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nxtfive_settings);
+        addPreferencesFromResource(R.xml.nxtfivetools);
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
