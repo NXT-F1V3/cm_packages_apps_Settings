@@ -153,12 +153,14 @@
     <header
 	android:id="@+id/nxtfive_settings"
 	android:title="@string/nxtfive_settings" />
+
     <!-- NXT-F1V3 Tools -->
     <header
 	android:id="@+id/nxtfive_tools"
 	android:icon="@drawable/ic_kernel_tweaker"
-	android:title=@string/nxtfive_tools_title"
-	android:fragment=1
+	android:title="@string/nxtfive_tools_title"
+	android:fragment="com.android.settings.nxtfive.NxtFiveTools" />
+
     <!-- Kernel Tweaker -->
     <header	
 	android:id="@+id/kernel_tweaker"
