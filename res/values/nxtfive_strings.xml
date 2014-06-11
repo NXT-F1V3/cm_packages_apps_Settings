@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (c) 2013, The C-RoM Project
+ * Copyright (c) 2014, The NXT-F1V3 RoM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -85,7 +85,7 @@
     <string name="kernel_tweaker">Kernel Tweaker</string>
   
     <!-- NXT-F1V3 ROM versioning -->
-    <string name="rom_header">ROM Name</string>
+    <string name="rom_header">NXT-F1V3 Version</string>
     <string name="rom_name">BB0X_NXT-F1V3-CM ROM</string>
     <string name="author_header">Modded By</string>
     <string name="author_name">Shakir Abdul-Ahad</string>
