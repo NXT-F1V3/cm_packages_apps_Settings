@@ -83,7 +83,10 @@
    <!-- Advanced Settings, KernelTweaker -->
     <string name="nxtfive_settings">NXT-F1V3 Settings</string>
     <string name="kernel_tweaker">Kernel Tweaker</string>
-  
+
+   <!-- NXT-F1V3 Tools -->
+    <string name="nxtfive_tools_title">NXT-F1V3 Tools</string> 
+    <string name="system_category">System</string>
     <!-- NXT-F1V3 ROM versioning -->
     <string name="rom_header">NXT-F1V3 Version</string>
     <string name="rom_name">BB0X_NXT-F1V3-CM ROM</string>

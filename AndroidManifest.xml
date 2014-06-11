@@ -1790,6 +1790,14 @@
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/system_settings" />
         </activity>
+    	
+		<activity android:name=".nxtfive.NxtFiveTools"
+            android:label="NXT-F1V3 Tools" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <activity android:name="Settings$QuickSettingsConfigActivity"
                 android:label="@string/tile_picker_title"
